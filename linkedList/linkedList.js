@@ -21,7 +21,7 @@ class LinkedList {
     }
     getAt(index) {
         if (index == 0) {
-            return this.head.getNextNode();
+            return this.head.getNextNode().getData();
         }
         else {
             let tempNode = this.head;
